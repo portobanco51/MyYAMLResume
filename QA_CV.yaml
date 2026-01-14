@@ -84,10 +84,10 @@ cv:
               details: MySQL, PostgreSQL, MongoDB.
 
         education:
-            # - institution: CENFOTEC University
-            #   area: Software Engineering
-            #   degree: Bachelor's Degree
-            #   location: Costa Rica
+            - institution: CENFOTEC University
+              area: Software Engineering
+              degree: Bachelor's Degree
+              location: Costa Rica
 
             - institution: Bilingual Experimental High School
               area: Higher Education

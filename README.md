@@ -4,7 +4,7 @@
 
 <p>RenderCV is a tool designed to generate high-quality CVs from YAML configuration files. It allows users to customize their CVs easily and render them in various formats.</p>
 
-<p>I've created this repository to provide a version control system for my CV using YAML structure. Feel free to use the theme and modify it to your liking.</p>
+<p>I've created this repository to provide a version control system for my resume using YAML structure. Feel free to use the theme and modify it to your liking.</p>
 
 ## Usage
 
@@ -14,9 +14,9 @@
     pip install -r requirements.txt
     ```
 
-2. **Prepare Your YAML File**: Create a YAML file (e.g., `QA_CV.yaml`) that contains your CV information. The structure of the YAML file should follow the specifications outlined in the documentation.
+2. **Prepare Your YAML File**: Create a YAML file (e.g., `QA_CV.yaml`) that contains your resume information. The structure of the YAML file should follow the specifications outlined in the documentation.
 
-3. **Render Your CV**: Use the following command to render your CV:
+3. **Render Your Resume**: Use the following command to render your resume:
 
     ```bash
     rendercv render <path_to_your_yaml_file>
@@ -28,7 +28,16 @@
     rendercv render ./QA_CV.yaml
     ```
 
-4. **Output**: The rendered CV will be saved in the `rendercv_output` directory.
+4. **Output**: The rendered resume will be saved in the `rendercv_output` directory.
+
+## Rendered Resume
+
+Here's a preview of the rendered resume:
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="rendercv_output/Jonathan_Portobanco_CV_1.png" alt="Resume Page 1" style="flex: 1; max-width: 40%; margin-right: 10px;">
+  <img src="rendercv_output/Jonathan_Portobanco_CV_2.png" alt="Resume Page 2" style="flex: 1; max-width: 40%; margin-right: 10px;">
+</div>
 
 ## Contributing or Suggestions
 
