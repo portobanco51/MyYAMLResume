@@ -1,0 +1,326 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+    name: Jonathan Portobanco
+    headline: SDET | Software QA Automation Engineer
+    location: Costa Rica
+    email: portobanco51@gmail.com
+    photo:
+    phone: +506 7209 6621
+    website: https://marceloportobanco.netlify.app
+    social_networks:
+        - network: LinkedIn
+          username: jonathan-portobanco
+        - network: GitHub
+          username: portobanco51
+    custom_connections:
+    sections:
+        Professional Profile:
+            - I am a results-driven Software Engineer in Test with a strong focus on automation practices. Proficient in Python and Bash, I engineer and implement automated testing frameworks that drive efficiency and quality. I leverage continuous integration, cloud solutions, and agile mindset to ensure high-quality software delivery, enhancing productivity.
+        #     - institution: Boğaziçi University
+        #       area: Computer Engineering
+        #       degree: BS
+        #       date:
+        #       start_date: 2014-09
+        #       end_date: 2018-06
+        #       location: Istanbul, Türkiye
+        #       summary:
+        #       highlights:
+        #           - "GPA: 3.97/4.00, Valedictorian"
+        #           - Fulbright Scholarship recipient for graduate studies
+        experience:
+            - company: Komodo Health
+              position: Software Engineer QA Automation
+              date:
+              start_date: 2025-01
+              end_date: present
+              location: Costa Rica, Remote
+              summary:
+              highlights:
+                  - Engineered and maintained automation frameworks using Selenium and Python to validate application workflows, APIs, and user interfaces, improving testing efficiency and reducing cycle times.
+                  - Led the introduction for main CI/CD automation framework utilizing GitHub Actions and Docker, resulting in an increase in deployment frequency and reliability.
+                  - Performed comprehensive end-to-end, black-box, unit, and regression testing across multiple environments to ensure high-quality releases and cross-browser compatibility.
+                  - Collaborated with cross-functional teams, leveraging tools like Postman and TestRail to drive process improvements and deliver actionable insights through detailed reporting and analysis.
+            - company: Intel Costa Rica
+              position: Software Engineer
+              date:
+              start_date: 2023-09
+              end_date: 2025-01
+              location: Costa Rica, Remote
+              summary:
+              highlights:
+                  - Engineered automated test scripts using Python and Bash to validate software functionalities and streamline the results, which led to a 20% reduction in testing cycle time, allowing for quicker releases and enhanced product reliability.
+                  - Developed over ten software solutions across various Linux and Windows environments with a strong understanding of command-line tools, file systems, and package management.
+                  - Utilized version control and continuous integration tools to ensure efficient code management and deployment while maintaining technical proficiency in advanced development environments and cloud solutions (Docker, Jenkins, GCP).
+            - company: CommandLink
+              position: Front End Engineer
+              date:
+              start_date: 2023-09
+              end_date: 2024-01
+              location: Costa Rica, Remote
+              summary:
+              highlights:
+                  - Collaborated within a cross-functional team of front and back-end engineers, QA and UI/UX to ensure agile communication, leading to 15% time cut on task solving process.
+                  - Successfully integrated changes and features to the website's design leveraging JavaScript libraries/frameworks like styled-components, improving by 35% site's user engagement.
+                  - Introduced unit test automated execution using Jest to ensure code quality before deployment, achieving an 85% project coverage threshold, which minimized bugs in production.
+            - company: Aztec Promotional Group
+              position: Web Developer
+              date:
+              start_date: 2022-10
+              end_date: 2023-07
+              location: Costa Rica, Remote
+              summary:
+              highlights:
+                  - Configured and supported Continuous Integration/Continuous Deployment (CI/CD) pipelines using tools like Jenkins and GitLab CI/CD, which led to a 25% reduction in deployment times, allowing for more frequent and reliable releases.
+                  - Collaborated seamlessly within a team, frequently spearheading innovative software initiatives and actively contributing to the design, development, and targeted testing of advanced solutions.
+                  - Diagnosed and optimized application performance, empowering clients to rapidly adapt to market shifts and enhance operational efficiency, which resulted in 15% costs reduction.
+        skills:
+            - label: Languages
+              details: Python, JavaScript, Bash, SQL, HTML, CSS, React.js, Three.js.
+            - label: Testing & Automation
+              details: TestRail, Selenium, Cypress, PyTest, Postman, Jenkins, GitHub Actions, Selenium.
+            - label: Cloud & Deployment
+              details: AWS, GCP, EC2, CloudWatch, Docker, Kubernetes, Terraform, GKE.
+            - label: Databases
+              details: MySQL, PostgreSQL, MongoDB.
+
+        education:
+            # - institution: CENFOTEC University
+            #   area: Software Engineering
+            #   degree: Bachelor's Degree
+            #   location: Costa Rica
+
+            - institution: Bilingual Experimental High School
+              area: Higher Education
+              degree: High School Diploma
+              location: Costa Rica
+        languages:
+            - label: English
+              details: C1 Advanced (Professional Working Proficiency)
+            - label: Spanish
+              details: Native Speaker
+
+        certificates:
+            - label: English Level C1 Certificate
+              details: Cambridge English Language Assessment
+            - label: "[Cloud DevOps Engineering Professional Certificate](https://coursera.org/share/8276e2e21a07e3ff473b22545d877fa2)"
+              details: Google Cloud Training
+            - label: "[IBM DevOps, Cloud, and Agile Professional Certificate](https://www.coursera.org/account/accomplishments/specialization/6BIDI4I20GOM)"
+              details: IBM
+            - label: "[Certified in Cybersecurity (CC)](https://www.credly.com/badges/5b498b8b-6bc1-44ad-9cb4-1955d0fc6fa0/linked_in_profile)"
+              details: Cisco Networking Academy
+            - label: "[Agile Explorer Badge](https://www.credly.com/badges/3fe678ec-d972-457a-85ba-63f5f9e83cb2?source=linked_in_profile)"
+              details: IBM
+            - label: "[Meta Back-End Development](https://coursera.org/share/95dd6ded1b7b11ea24280100435fed11)"
+              details: Meta
+        projects:
+            - name: "[Software Engineering Portfolio](https://marceloportobanco.netlify.app)"
+              date:
+              start_date:
+              end_date:
+              location:
+              summary: An interactive, React.js & Three.js portfolio to showcase my experience as a Software Engineer, leveraging a full-stack, 3D Progressive Web App, mobile responsive and cross-browser compatible.
+              highlights:
+                  - API integration to scrape projects metadata from their respective host sources.
+                  - Automated continuous integration and deployment (CI/CD) using GitHub Actions alongside Netlify CLI for hosting.
+                  - "[GitHub Repository](https://github.com/portobanco51/Marcelo3DPortfolio)"
+            - name: "[ArrowKeys Menu - Bash / Zsh CLI](https://github.com/portobanco51/ArrowKeysMenu)"
+              date:
+              start_date:
+              end_date:
+              location:
+              summary: Modular and open-source way to create an arrow keys interactive selector menu for the users within the terminal, preventing from errors or mistakes when prompting the end user for an input.
+              highlights:
+                  - Highly customizable, to suit your own needs/styles, making life easier for the developer and better Python solutions for the audience.
+                  - Tested and optimized for cross-platform and cross-os compatibility (Linux, macOS, Windows WSL).
+            - name: "[Fitness Club - Gym Web App](https://gym-fitclub.netlify.app)"
+              date:
+              start_date:
+              end_date:
+              location:
+              summary: A React.js-based progressive web app designed to fetch and display exercise data from ExerciseDB API alongside YoutubeSearch API using a custom hooks, tailored to user input.
+              highlights:
+                  - Custom react hook to fetch ExerciseDB and YoutubeSearch data, asynchronously calls for related video content.
+                  - Automated CI/CD deployment using GitHub Actions for seamless updates and hosting via Netlify CLI.
+                  - "[GitHub Repository](https://github.com/portobanco51/FitnessClub)"
+
+design:
+    theme: moderncv
+    page:
+        size: us-letter
+        top_margin: 0.7in
+        bottom_margin: 0.7in
+        left_margin: 0.7in
+        right_margin: 0.7in
+        show_footer: false
+        show_top_note: false
+    colors:
+        body: rgb(0, 0, 0)
+        name: rgb(0, 0, 0)
+        headline: rgb(0, 0, 0)
+        connections: rgb(0, 0, 0)
+        section_titles: rgb(0, 0, 0)
+        links: rgb(0, 0, 0)
+        footer: rgb(128, 128, 128)
+        top_note: rgb(128, 128, 128)
+    typography:
+        line_spacing: 0.6em
+        alignment: justified
+        date_and_location_column_alignment: right
+        font_family:
+            body: Source Sans 3
+            name: Source Sans 3
+            headline: Source Sans 3
+            connections: Source Sans 3
+            section_titles: Source Sans 3
+        font_size:
+            body: 10pt
+            name: 30pt
+            headline: 10pt
+            connections: 10pt
+            section_titles: 1.4em
+        small_caps:
+            name: false
+            headline: false
+            connections: false
+            section_titles: false
+        bold:
+            name: true
+            headline: false
+            connections: false
+            section_titles: true
+    links:
+        underline: false
+        show_external_link_icon: true
+    header:
+        alignment: center
+        photo_width: 3.5cm
+        photo_position: left
+        photo_space_left: 0.4cm
+        photo_space_right: 0.4cm
+        space_below_name: 0.7cm
+        space_below_headline: 0.7cm
+        space_below_connections: 0.7cm
+        connections:
+            phone_number_format: national
+            hyperlink: true
+            show_icons: true
+            display_urls_instead_of_usernames: false
+            separator: ""
+            space_between_connections: 0.5cm
+    section_titles:
+        type: with_partial_line
+        line_thickness: 0.5pt
+        space_above: 0.5cm
+        space_below: 0.3cm
+    sections:
+        allow_page_break: true
+        space_between_regular_entries: 1.2em
+        space_between_text_based_entries: 0.5em
+        # show_time_spans_in:
+        #     - experience
+    entries:
+        date_and_location_width: 3.15cm
+        side_space: 0.5cm
+        space_between_columns: 0.1cm
+        allow_page_break: false
+        short_second_row: false
+        summary:
+            space_above: 0cm
+            space_left: 0cm
+        highlights:
+            bullet: "-"
+            nested_bullet: "-"
+            space_left: 0.15cm
+            space_above: 0cm
+            space_between_items: 0.1cm
+            space_between_bullet_and_text: 0.5em
+    # templates:
+    #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+    #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+    #   single_date: MONTH_ABBREVIATION YEAR
+    #   date_range: START_DATE – END_DATE
+    #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+    #   one_line_entry:
+    #     main_column: '**LABEL:** DETAILS'
+    #   education_entry:
+    #     main_column: |-
+    #       **INSTITUTION**, AREA
+    #       SUMMARY
+    #       HIGHLIGHTS
+    #     degree_column: '**DEGREE**'
+    #     date_and_location_column: |-
+    #       LOCATION
+    #       DATE
+    #   normal_entry:
+    #     main_column: |-
+    #       **NAME**
+    #       SUMMARY
+    #       HIGHLIGHTS
+    #     date_and_location_column: |-
+    #       LOCATION
+    #       DATE
+    #   experience_entry:
+    #     main_column: |-
+    #       **COMPANY**, POSITION
+    #       SUMMARY
+    #       HIGHLIGHTS
+    #     date_and_location_column: |-
+    #       LOCATION
+    #       DATE
+    #   publication_entry:
+    #     main_column: |-
+    #       **TITLE**
+    #       SUMMARY
+    #       AUTHORS
+    #       URL (JOURNAL)
+    #     date_and_location_column: DATE
+locale:
+    language: english
+    last_updated: Last updated in
+    month: month
+    months: months
+    year: year
+    years: years
+    present: present
+    month_abbreviations:
+        - Jan
+        - Feb
+        - Mar
+        - Apr
+        - May
+        - June
+        - July
+        - Aug
+        - Sept
+        - Oct
+        - Nov
+        - Dec
+    # month_names:
+    #   - January
+    #   - February
+    #   - March
+    #   - April
+    #   - May
+    #   - June
+    #   - July
+    #   - August
+    #   - September
+    #   - October
+    #   - November
+    #   - December
+settings:
+    current_date: "2026-01-11"
+    render_command:
+        design:
+        locale:
+        typst_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.typ
+        pdf_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.pdf
+        markdown_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.md
+        html_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.html
+        png_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.png
+        dont_generate_markdown: true
+        dont_generate_html: true
+        dont_generate_typst: false
+        dont_generate_pdf: false
+        dont_generate_png: false
+    bold_keywords: [Oct 2022 – July 2023, Sept 2023 – Jan 2024, Sept 2023 – Jan 2025, Jan 2025 – present]
