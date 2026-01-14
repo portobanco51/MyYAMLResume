@@ -34,10 +34,16 @@
 
 Here's a preview of the rendered resume:
 
-<div style="display: flex; justify-content: space-around;">
-  <img src="rendercv_output/Jonathan_Portobanco_CV_1.png" alt="Resume Page 1" style="flex: 1; max-width: 40%; margin-right: 10px;">
-  <img src="rendercv_output/Jonathan_Portobanco_CV_2.png" alt="Resume Page 2" style="flex: 1; max-width: 40%; margin-right: 10px;">
-</div>
+<table style="width: 100%;">
+  <tr>
+    <td style="width: 50%;">
+      <img src="rendercv_output/Jonathan_Portobanco_CV_1.png" alt="Resume Page 1" style="max-width: 100%;">
+    </td>
+    <td style="width: 50%;">
+      <img src="rendercv_output/Jonathan_Portobanco_CV_2.png" alt="Resume Page 2" style="max-width: 100%;">
+    </td>
+  </tr>
+</table>
 
 ## Contributing or Suggestions
 
